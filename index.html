@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Дюбо Юлия Владимировна</title>
+    <style>
+        body {
+            background-color: #fafafa;
+            font-family: arial;
+        }
+        .photo {
+            float: left;
+            object-fit: cover;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-right: 12px;
+            margin-bottom: 12px;
+        }
+        .info::after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+        .list-label {
+            font-weight: bold;
+        }
+        main {
+            background-color: white;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, .16),
+                        0 3px 6px rgba(0, 0, 0, .23);
+            margin: 16px;
+            padding: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Страница о магистрской работе Дюбо Ю. В.</h1>
+        <section class="info">
+            <h2>Автобиография</h2>
+            <img src="https://vk.com/id106310003?z=photo106310003_456239636%2Falbum106310003_0%2Frev" alt="Фотография Дюбо Ю. В." class="photo">
+            <p>
+                Вставьте сюда текст вашей автобиографии. Lorem Ipsum используют потому, что тот
+                обеспечивает более или менее стандартное заполнение шаблона,
+                а также реальное распределение букв и пробелов в абзацах,
+                которое не получается при простой дубликации "Здесь ваш текст..
+                Здесь ваш текст.. Здесь ваш текст.." Многие программы
+                электронной вёрстки и редакторы HTML используют Lorem Ipsum в
+                качестве текста по умолчанию, так что поиск по ключевым словам
+                "lorem ipsum" сразу показывает, как много веб-страниц всё ещё
+                дожидаются своего настоящего рождения. За прошедшие годы текст
+                Lorem Ipsum получил много версий. Некоторые версии появились по
+                ошибке, некоторые - намеренно.
+            </p>
+        </section>
+        <section>
+            <label class="list-label" for="workLinks">Ссылки на </label>
+            <ul id="workLinks">
+                <li>
+                    <a href="#https://github.com/[username]/[repository_name]/raw/master/[path_to_file]/[filename_with_extension]">Реферат</a>
+                </li>
+                <li>
+                    <a href="https://github.com/bukerok/test-gh-pages/raw/master/masters-work.doc">Выпускная работа</a>
+                </li>
+                <li>
+                    Научный руководитель <a href="#вставте_сюда_ссылку_на_страницу_научного_руководителя_на_сайте_bsu.by" target="_blank">ФИО научного руководителя</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
